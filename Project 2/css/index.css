@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Secular+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Secular One', sans-serif;
+}
+
+body{
+    background: #1F1F1F;
+    height: 2700px;
+}
+
+/* START OF NAV BAR */
+.navbar{
+    padding: 30px 300px;
+    text-align: right;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px; 
+    font-size: 18px;
+}
+/* END OF NAV BAR */
+
+/* START OF ABOUT */
+.textbox{
+    margin-top: 8%;
+    margin-left: 50%;
+    color: white;
+}
+
+#p1{
+    font-size: 20px;
+    color: red;
+}
+
+.textbox h1{
+    font-size: 50px;
+}
+
+#p2{
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.textbox button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 15px;
+}
+/* END OF ABOUT */
+
+.bgbox{
+    background: #232323;
+    width: 50%;
+    height: 1000px;
+    margin-top: 200px;
+}
+
+/* START OF BIG BOXES */
+.box1{
+    background-color: #2B2B2B;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 830px;
+    left: 400px;
+    transition: 2s;
+}
+
+.box2{
+    background-color: #2B2B2B;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 830px;
+    left: 777px;
+}
+
+.box3{
+    background-color: #2B2B2B;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 830px;
+    right: 400px;
+}
+/* END OF BIG BOXES */
+
+/* START OF SMALL BOXES */
+.sbox1{
+    background-color: #2B2B2B;
+    width: 350px;
+    height: 120px;
+    position: absolute;
+    top: 1300px;
+    left: 777px;
+}
+
+.sbox2{
+    background-color: #2B2B2B;
+    width: 350px;
+    height: 120px;
+    position: absolute;
+    top: 1440px;
+    left: 777px;
+}
+
+.sbox3{
+    background-color: #2B2B2B;
+    width: 350px;
+    height: 120px;
+    position: absolute;
+    top: 1300px;
+    right: 400px;
+}
+
+.sbox4{
+    background-color: #2B2B2B;
+    width: 350px;
+    height: 120px;
+    position: absolute;
+    top: 1440px;
+    right: 400px;
+}
+
+.sbox5{
+    background-color: #2b2b2b00;
+    width: 350px;
+    height: 260px;
+    position: absolute;
+    top: 1300px;
+    left: 400px;
+}
+
+/* END OF SMALL BOXES */
+
+/* START OF BOX TEXT */
+.box1text{
+    padding: 70px 40px;
+    color: white;
+}
+
+.box1text h1{
+    padding: 20px 0px;
+    font-size: 30px;
+}
+
+#par1{
+    padding-bottom: 30px;
+}
+
+#par2{
+    color: red;
+}
+
+.box1text a{
+    text-decoration: none;
+}
+
+.box2text{
+    padding: 70px 40px;
+    color: white;
+}
+
+.box2text h1{
+    padding: 20px 0px;
+    font-size: 30px;
+}
+
+#par3{
+    padding-bottom: 30px;
+}
+
+#par4{
+    color: red;
+}
+
+.box2text a{
+    text-decoration: none;
+}
+
+.box3text{
+    padding: 70px 40px;
+    color: white;
+}
+
+.box3text h1{
+    padding: 20px 0px;
+    font-size: 30px;
+}
+
+#par5{
+    padding-bottom: 30px;
+}
+
+#par6{
+    color: red;
+}
+
+.box3text a{
+    text-decoration: none;
+}
+
+/* END OF BOXES TEXT */
+
+/* SMALL BOXES TEXT */
+
+.sbox1 h1{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.sbox1 p{
+    color: white;
+    text-align: center;
+}
+
+.sbox2 h1{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.sbox2 p{
+    color: white;
+    text-align: center;
+}
+
+.sbox3 h1{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.sbox3 p{
+    color: white;
+    text-align: center;
+}
+
+.sbox4 h1{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.sbox4 p{
+    color: white;
+    text-align: center;
+}
+
+.sbox5 h1{
+    color: red;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sbox5 p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+/* END OF SMALL BOXES TEXT */
+
+/* WOMAN IMAGE */
+img{
+    position: absolute;
+    top: 299px;
+    left: 300px;
+}
+/* END OF WOMAN IMAGE */
+
+/* ICONS START */
+.fa-solid{
+    color: red;
+    font-size: 60px;
+}
+/* ICONS END */
+
+/* FEATURED PROJECTS */
+.textbox2{
+    color: #fff;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+#h11{
+    font-size: 100px;
+}
+
+.viewall button{
+    position: absolute;
+    right: 21%;
+    top: 1765px;
+    color: white;
+    background: red;
+    padding: 15px 30px;
+    border: none;
+}
+/* END OF FEATURED PROJECTS */
+
+/* END */
+.box8{
+    margin-top: 200px;
+    background: #2B2B2B;
+    width: 1103px;
+    height: 350px;
+    position: absolute;
+    right: 400px;
+}
+
+.textbox8{
+    color: white;
+    padding: 80px 80px;
+}
+
+.textbox8 h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#together{
+    color: red;
+}
+
+.box8 button{
+    color: white;
+    background: red;
+    padding: 15px 30px;
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    top: 45%;
+    right: 15%;
+}
+
+/* END OF IT ALL */
